@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple CRM Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>MyCRM</h2>
+        <a href="#" class="active">Dashboard</a>
+        <a href="#">Customers</a>
+        <a href="#">Leads</a>
+        <a href="#">Tasks</a>
+        <a href="#">Reports</a>
+        <a href="#">Settings</a>
+    </div>
+
+    <div class="main">
+        <div class="navbar">
+            <h3>Dashboard</h3>
+            <div class="profile">
+                <img src="https://via.placeholder.com/40" alt="Profile">
+                <span>Admin</span>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="card">
+                <h4>Total Customers</h4>
+                <p>120</p>
+            </div>
+
+            <div class="card">
+                <h4>Active Leads</h4>
+                <p>33</p>
+            </div>
+
+            <div class="card">
+                <h4>Open Tasks</h4>
+                <p>12</p>
+            </div>
+
+            <div class="card">
+                <h4>Revenue</h4>
+                <p>₹2,45,000</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
